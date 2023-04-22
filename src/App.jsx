@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Player from './components/Character'
+import Player from './components/Player'
 
 function App() {
 
