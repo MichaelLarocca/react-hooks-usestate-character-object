@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Player name="Legolas" arrows={50} />
-      <Player name="Michael" arrows={25} />
+      <Player />
     </>
   )
 }
