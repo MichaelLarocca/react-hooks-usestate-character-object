@@ -18,12 +18,14 @@ function Player(props) {
       }
     
       return (
-        <div>
+        <div className="player">
           <h1>{player.name}</h1>
-          <p>Score: {player.score}</p>
-          <p>Level: {player.level}</p>
-          <p>Weapon: {player.weapon}</p>
-          <p>Arrows: {player.arrows}</p>
+          <div className="card-inner">
+          <p>Score: <strong>{player.score}</strong></p>
+          <p>Level: <strong>{player.level}</strong></p>
+          <p>Weapon: <strong>{player.weapon}</strong></p>
+          <p>Arrows: <strong>{player.arrows}</strong></p>
+          </div>
           <button disabled={player.arrows === 0} onClick={handleClick}>Shoot Arrow</button>
         </div>
       );

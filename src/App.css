@@ -4,3 +4,58 @@ body {
     padding: 0;
     font-family: 'Cinzel Decorative', cursive;
 }
+
+.player {
+    display: inline-block;
+    background-color: beige;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+    text-align: center;
+  }
+  
+  .player  h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+    text-shadow: 1px 1px 1px brown;
+  }
+  
+  .player  p {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .player button {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 1.5em;
+    background-color: brown;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .player button:hover {
+    border: 1px solid black;
+    border-color: black;
+    background-color: white;
+    color: brown;  
+  }
+
+  .card-inner {
+    border: 1px solid black;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+  }
