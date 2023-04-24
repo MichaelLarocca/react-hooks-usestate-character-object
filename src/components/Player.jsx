@@ -3,9 +3,9 @@ import React, { useState } from "react";
 function Player(props) {
     const [player, setPlayer] = useState({
         name: props.name || "Player",
-        score: 0,
-        level: 1,
-        weapon: 'Bow',
+        score: props.score || 0,
+        level: props.level || 1,
+        weapon: "Bow",
         arrows: props.arrows || 20,
       });
     

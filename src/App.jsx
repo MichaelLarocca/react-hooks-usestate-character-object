@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Player name="Legolas" arrows={50} />
+      <Player name="Legolas" score={10} level={20} weapon="Bow" arrows={50} />
       <Player />
     </>
   )
